@@ -1,1 +1,1 @@
-# VisI-Visual-Impairment-Smart-Assistant
+# Visi-Visual-Impairment-Smart-Assistant
