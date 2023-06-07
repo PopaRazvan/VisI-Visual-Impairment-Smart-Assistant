@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="publisher" content="blankdots.com" />
+  <meta name="author" content="Stefan Negru" />
+  <meta name="keywords" content="personas, template" />
+  <meta name="description" content="Personas Template with microdata" />
+  <meta name="robots" content="noindex,nofollow" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Personas Template</title>
+</head>
+
+<body>
+  <header>
+    <h1>Personas Template</h1>
+    <span id="logo"><a href="http://www.w3.org/html/logo/">
+        <img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="83" height="32"
+          alt="HTML5 Powered with CSS3 / Styling, and Semantics"
+          title="HTML5 Powered with CSS3 / Styling, and Semantics" /> </a></span>
+  </header>
+  <section>
+    <h1 class="hidden">Personas Section (minimum 4 personas recommended)</h1>
+
+    <article itemscope itemtype="http://schema.org/Person" class="persona">
+      <div class="personaInfo">
+        <h3>Type: Primary (Persona with Myopia)</h3>
+        <figure>
+          <img itemprop="image" src="pexels-andrea-piacquadio-874158.jpg" width="200" height="150"
+            alt="persona image" />
+        </figure>
+        <div class="personaBackground">
+          <h4>Name: John Anderson</h4>
+          <h5>Background</h5>
+          <ul>
+            <li>Date of Birth: 09/28/1985</li>
+            <li>Gender: Male</li>
+            <li>Location: San Francisco, USA</li>
+            <li>Workplace: Tech Company, Software Engineer</li>
+            <li>School: Graduated with a Bachelor's degree in Computer Science from a renowned university</li>
+            <li>Technology Level: High; proficient in using smartphones, computers, and various software applications
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="personaDetails">
+        <div class="detailsLeft">
+          <div class="leftGroup">
+            <h5>Main Points</h5>
+            <ul>
+              <li>John is a 37-year-old software engineer working at a tech company in San Francisco.</li>
+              <li>He has myopia (nearsightedness) and wears glasses or contact lenses.</li>
+              <li>John spends long hours in front of a computer screen for work.</li>
+              <li>He uses a smartphone and computer extensively throughout the day.</li>
+            </ul>
+          </div>
+          <div class="leftGroup">
+            <h5>Goals</h5>
+            <ul>
+              <li>Improve productivity and reduce eye strain caused by prolonged screen use.</li>
+              <li>Enhance the ability to read and understand code and technical documentation.</li>
+              <li>Access tools for better visibility and comprehension of small text or code segments.</li>
+              <li>Efficiently manage software development tools and environments with visual clarity.</li>
+            </ul>
+          </div>
+          <div class="leftGroup">
+            <h5>Frustrations and Pain Points</h5>
+            <ul>
+              <li>Eye strain and discomfort from prolonged screen exposure and reading small text or code.</li>
+              <li>Difficulty reading and understanding code or technical documents with small font sizes.</li>
+              <li>Inability to view and analyze intricate details in code or visual design elements.</li>
+              <li>The need to constantly adjust display settings or rely on external tools for better visibility.</li>
+            </ul>
+          </div>
+        </div>
+        <div itemprop="description" class="detailsRight">
+          <h5>Detailed Description</h5>
+          <p>
+            John is a software engineer facing challenges due to his myopia. Despite using corrective eyewear, he
+            experiences eye strain, headaches, and blurred vision. He discovers an app designed for individuals with
+            visual
+            impairments, which allows him to adjust text size and magnify code segments for better visibility. The app
+            also
+            provides visual customization options, helping him reduce eye strain while coding and navigate software
+            tools
+            efficiently.
+          </p>
+         
+        </div>
+      </div>
+      <div class="personaScenarios">
+        <h5>Scenarios</h5>
+        <ul>
+          <li>
+           Code Review: John is reviewing a colleague's code
+            contribution in a collaborative software development environment.
+            Using the app, he adjusts the font size and color scheme to
+            enhance readability and quickly spot any errors or inconsistencies
+            in the code.
+          </li>
+       
+        </ul>
+      </div>
+    </article>
+
+
+    <article itemscope itemtype="http://schema.org/Person" class="persona">
+      <div class="personaInfo">
+        <h3>Type: Primary (Persona with color blindness)</h3>
+        <figure>
+          <img itemprop="image" src="pexels-pixabay-220453.jpg"
+            alt="persona image" width="200" height="250" />
+        </figure>
+        <div class="personaBackground">
+          <h4>
+            Name: <span itemprop="givenName">John</span>
+            <span itemprop="familyName">Smith</span>
+          </h4>
+          <h5>Background</h5>
+          <ul>
+            <li><strong>Date of Birth:</strong> <time itemprop="birthDate" datetime="1988-09-22">09/22/1988</time></li>
+            <li><strong>Gender:</strong> <span itemprop="gender">Male</span></li>
+            <li itemprop="location" itemscope itemtype="http://schema.org/Place"><strong>Location:</strong> <span itemprop="name">San Francisco, California, USA</span></li>
+            <li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization"><strong>Work place:</strong> <span itemprop="name">Tech Solutions Inc.</span>, <span itemprop="jobTitle">UX Designer</span></li>
+            <li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization"><strong>School:</strong> <span itemprop="name">Graduated with a degree in Visual Communication Design from a local university</span></li>
+            <li><strong>Technology Level:</strong> Proficient in using smartphones, computers, and various software applications</li>
+          </ul>
+        </div>
+      </div>
+      <div class="personaDetails">
+        <div class="detailsLeft">
+          <div class="leftGroup">
+            <h5>Main Points</h5>
+            <ul>
+              <li>John is a UX designer with color blindness, specifically red-green color blindness.</li>
+              <li>He specializes in creating visually appealing and accessible user interfaces.</li>
+              <li>John faces challenges in accurately perceiving certain color combinations, impacting his design process.</li>
+            </ul>
+          </div>
+          <div class="leftGroup">
+            <h5>Goals</h5>
+            <ul>
+              <li>Create inclusive user interfaces that consider the needs of color-blind users.</li>
+              <li>Enhance design skills and expand knowledge on accessible interfaces.</li>
+              <li>Improve efficiency and productivity by utilizing tools for individuals with visual impairments.</li>
+            </ul>
+          </div>
+          <div class="leftGroup">
+            <h5>Frustrations and Pain Points</h5>
+            <ul>
+              <li>Struggle to differentiate between certain colors, leading to potential design flaws.</li>
+              <li>Depend on colleagues to verify color combinations, reducing independence.</li>
+              <li>Feel limited in expressing creativity and contributing effectively to projects.</li>
+            </ul>
+          </div>
+        </div>
+        <div itemprop="description" class="detailsRight">
+          <h5>Detailed Description</h5>
+          <p>
+            John is a talented UX designer in his thirties. With over a decade of experience, he specializes in creating visually appealing and accessible user interfaces. However, his red-green color blindness poses challenges in accurately perceiving color combinations, impacting his design process.
+          </p>
+          <p>
+            John often struggles to differentiate between certain colors, which can result in unintended design flaws. He relies on colleagues to verify color choices, reducing his independence and slowing down the design process. Additionally, he feels limited in expressing his creativity fully due to the impact of his color perception on the overall design.
+          </p>
+          
+        </div>
+      </div>
+      <div class="personaScenarios">
+        <h5>Scenarios</h5>
+        <p><strong>1. </strong>John is working on a new project that requires a color palette with shades of red and green. He uses a color blindness simulation feature in an app to identify color combinations that are difficult for him to distinguish. With this information, he adjusts the color palette to ensure a more accessible design.</p>
+        <p><strong>2. </strong>John is collaborating with a team on a web application. He utilizes the text resizing feature of the app to enlarge the font size, making it easier for him to read and review the code. This feature enhances his productivity and reduces eye strain.</p>
+        
+      </div>
+      <div class="otherDetails">
+        <h5>Other Details</h5>
+        <p><strong>1. </strong>John stays up-to-date with the latest trends and advancements in web design and accessibility.</p>
+        <p><strong>2. </strong>He actively participates in online forums and communities dedicated to color blindness and accessible design.</p>
+      
+      </div>
+    </article>
+
+
+    <article itemscope itemtype="http://schema.org/Person" class="persona">
+  <div class="personaInfo">
+    <h3>Type: Customer</h3>
+    <figure>
+      <img itemprop="image" src="pexels-simon-robben-614810.jpg"
+        style="width: 200px; height: 150px" alt="persona image" />
+    </figure>
+    <div class="personaBackground">
+      <h4>
+        Name: <span itemprop="givenName">Popovici</span>
+        <span itemprop="familyName">Andrei</span>
+      </h4>
+      <h5>Background</h5>
+      <ul>
+        <li>
+          <strong>Date of Birth:</strong>
+          <time itemprop="birthDate" datetime="1990-10-23">10/23/1990</time>
+        </li>
+        <li>
+          <strong>Gender:</strong> <span itemprop="gender">Male</span>
+        </li>
+        <li itemprop="location" itemscope itemtype="http://schema.org/Place">
+          <strong>Location:</strong>
+          <span itemprop="name">Iasi, Romania</span>
+        </li>
+        <li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <strong>Work place:</strong>
+          <span itemprop="name">Amazon</span>,
+          <span itemprop="jobTitle">Engineer</span>
+        </li>
+        <li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+          <strong>School:</strong>
+          <span itemprop="name">Faculty of Computer Science, Iasi, Romania</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="personaDetails">
+    <div class="detailsLeft">
+      <div class="leftGroup">
+        <h5>Main Points</h5>
+        <ul>
+          <li>Has myopia and relies on an app for visual impairments.</li>
+          <li>Experienced with assistive technologies for visual impairments.</li>
+          <li>Dislikes certain app UI, interaction, and user experience.</li>
+          <li>Difficulties completing tasks due to visual impairment.</li>
+          <li>Wants to feel competent and not insulted by the product.</li>
+        </ul>
+      </div>
+      <div class="leftGroup">
+        <h5>Goals</h5>
+        <p>Reasons users perform tasks:</p>
+        <ul>
+          <li>
+            Practical Goals:
+            <ul>
+              <li>Efficiently complete tasks and work responsibilities.</li>
+              <li>Maximize productive work time.</li>
+            </ul>
+          </li>
+          <li>
+            Personal Goals:
+            <ul>
+              <li>Enjoy the process of completing tasks.</li>
+              <li>Maintain independence in managing work tasks.</li>
+            </ul>
+          </li>
+          <li>
+            Business Goals:
+            <ul>
+              <li>Support professional growth of visually impaired employees.</li>
+              <li>Drive innovation and creativity within the organization.</li>
+              <li>Increase productivity through app's accessibility features.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="leftGroup">
+        <h5>Frustrations and Pain Points</h5>
+        <ul>
+          <li>UI, interaction, and user experience not optimized for visual impairments.</li>
+          <li>Dislikes aspects hindering accessibility.</li>
+          <li>Visual disability affects product reliability and ease of use.</li>
+          <li>Lack of feedback and slow response times.</li>
+        </ul>
+      </div>
+    </div>
+    <div itemprop="description" class="detailsRight">
+      <h5>Detailed Description</h5>
+      <p>
+        Andrei Popovici, 32-year-old engineer from Iasi, Romania, has myopia and relies on assistive technologies for his visual impairment, including your app. He's experienced with similar products but finds their UI and interaction frustrating. This affects his task completion. He aims to be productive and competent, avoiding unnecessary meetings and enjoying his work.
+      </p>
+    </div>
+  </div>
+  <div class="personaScenarios">
+    <h5>Scenarios</h5>
+    <h4>1: Reviewing and providing feedback on a document.</h4>
+    <ul>
+      <li>
+        <strong>Goal:</strong> Successfully review and provide feedback on the document using the app.
+      </li>
+      <li>
+        <strong>Endpoint:</strong> Andrei efficiently completes the review and feedback process with an intuitive UI and clear feedback mechanisms.
+      </li>
+    </ul>
+    <h4>2: Preparing visually appealing and accessible presentation slides.</h4>
+    <ul>
+      <li>
+        <strong>Goal:</strong> Create visually appealing and accessible presentation slides using the app.
+      </li>
+      <li>
+        <strong>Endpoint:</strong> Andrei successfully designs and customizes his presentation slides, ensuring accessibility for himself and others with visual impairments.
+      </li>
+    </ul>
+  </div>
+  <div class="otherDetails">
+    <h5>Other Details</h5>
+    <p>
+      Andrei enjoys collaborating with colleagues and values teamwork. </p>
+      <p>
+      Actively seeks technologies and products to enhance productivity and accessibility. </p>
+      <p>
+      Well-versed in using smartphones and devices, but requires apps for visual impairments.
+  
+    </p>
+  </div>
+</article>
+
+<article itemscope itemtype="http://schema.org/Person" class="persona">
+  <div class="personaInfo">
+    <h3>Type: Secondary Persona</h3>
+    <figure>
+      <img itemprop="image" src="christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg" style="width: 150px; height: 200px" alt="persona image" />
+    </figure>
+    <div class="personaBackground">
+      <h4>
+        Name: <span itemprop="givenName">Gabriela</span>
+        <span itemprop="familyName">Santos</span>
+      </h4>
+      <h5>Background</h5>
+      <ul>
+        <li>
+          <strong>Date of Birth:</strong>
+          <time itemprop="birthDate" datetime="1985-06-15">June 15, 1985</time>
+        </li>
+        <li>
+          <strong>Gender:</strong> <span itemprop="gender">Female</span>
+        </li>
+        <li itemprop="location" itemscope itemtype="http://schema.org/Place">
+          <strong>Location:</strong>
+          <span itemprop="name">Madrid, Spain</span>
+        </li>
+        <li itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+          <strong>Work place:</strong>
+          <span itemprop="name">Marketing Agency</span>,
+          <span itemprop="jobTitle">Digital Marketing Specialist</span>
+        </li>
+        <li itemprop="alumniOf" itemscope itemtype="http://schema.org/EducationalOrganization">
+          <strong>School:</strong>
+          <span itemprop="name">University of Madrid</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="personaDetails">
+    <div class="detailsLeft">
+      <div class="leftGroup">
+        <h5>Main Points</h5>
+        <ul>
+          <li>Gabriela is a digital marketing specialist working for a marketing agency in Madrid.</li>
+          <li>She has experience using various digital marketing tools and platforms.</li>
+          <li>She prioritizes maintaining good relationships with clients.</li>
+          <li>Her goal is to optimize campaign performance and drive business growth.</li>
+        </ul>
+      </div>
+      <div class="leftGroup">
+        <h5>Goals</h5>
+        <ul>
+          <li>
+            Practical Goals:
+            <ul>
+              <li>Efficiently manage and optimize marketing campaigns.</li>
+              <li>Streamline data analysis and reporting processes.</li>
+              <li>Easily collaborate with team members on marketing projects.</li>
+            </ul>
+          </li>
+          <li>
+            Personal Goals:
+            <ul>
+              <li>Feel competent and empowered while managing marketing campaigns.</li>
+              <li>Enjoy the process of utilizing the app's functionalities.</li>
+              <li>Foster positive relationships with clients and colleagues.</li>
+            </ul>
+          </li>
+          <li>
+            Business Goals:
+            <ul>
+              <li>Optimize campaign performance and drive business growth.</li>
+              <li>Improve efficiency and productivity in managing marketing projects.</li>
+              <li>Position the organization as a leader in marketing practices.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="leftGroup">
+        <h5>Frustrations and Pain Points</h5>
+        <ul>
+          <li>Inaccessible interfaces and lack of visual accommodations hinder her productivity.</li>
+          <li>Difficulties in monitoring and analyzing campaign data due to visual impairment.</li>
+          <li>Insufficient feedback and data visualization options within the app.</li>
+          <li>Inability to efficiently collaborate with team members on marketing projects.</li>
+        </ul>
+      </div>
+    </div>
+    <div itemprop="description" class="detailsRight">
+      <h5>Detailed Description</h5>
+      <p>
+        Gabriela Santos is a digital marketing specialist working for a marketing agency in Madrid. She has experience using various digital marketing tools and platforms to manage marketing campaigns efficiently. Gabriela values user-friendly interfaces and intuitive interactions that enhance her productivity. She prioritizes maintaining good relationships with clients and believes in data-driven decision-making to optimize campaign performance and drive business growth. However, her visual impairment sometimes poses challenges in accessing information and collaborating effectively with team members. Gabriela seeks accessible solutions and feedback mechanisms to overcome these obstacles and deliver successful marketing campaigns.
+      </p>
+    </div>
+  </div>
+  <div class="personaScenarios">
+    <h5>Scenarios</h5>
+    
+    <h4>1: Analyzing campaign performance data and preparing a comprehensive report for the team.</h4>
+    <ul>
+      <li><strong>Goal:</strong> Efficiently analyze campaign data and generate a detailed report using the app.</li>
+      <li><strong>Endpoint:</strong> Gabriela effectively analyzes the data, visualizes key insights through the app's features, and generates a comprehensive report to guide future campaign optimizations.</li>
+    </ul>
+  </div>
+  <div class="otherDetails">
+    <h5>Other Details</h5>
+    <p>
+      Gabriela stays updated with the latest digital marketing trends and innovations. 
+      </p>
+      <p>
+      She actively seeks opportunities for professional growth and values open communication and constructive feedback. 
+      </p>
+      <p>Gabriela takes pride in delivering high-quality work, meeting client expectations, and maintaining strong client relationships. 
+     
+    </p>
+  </div>
+</article>
+  </section>
+
+  <footer id="footer">
+    <span id="license"><a href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License"
+          style="border-width: 0" src="http://i.creativecommons.org/l/by/3.0/80x15.png" /></a></span>
+  </footer>
+</body>
+
+</html>
